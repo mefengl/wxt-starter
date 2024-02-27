@@ -12,4 +12,8 @@ export default antfu({}, ...compat.config({
     'tailwindcss/no-custom-classname': 'off',
     'tailwindcss/migration-from-tailwind-2': 'off',
   },
+  ignorePatterns: [
+    'src/components/ui/*',
+    'src/lib/utils.ts',
+  ],
 }))
