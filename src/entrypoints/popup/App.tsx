@@ -1,7 +1,9 @@
+import { Button } from '@/components/ui/button'
+
 function App() {
   return (
     <>
-      popup
+      <Button>popup</Button>
     </>
   )
 }
