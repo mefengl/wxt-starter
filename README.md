@@ -10,6 +10,6 @@ Build upon amazing [wxt](wxt.dev) framework.
 
 ## Predefined Entrypoints
 
-Prefixed with `_`, remove the prefix to use them.
+Move the predefined entry points from the `inactive` folder to directly under the `entrypoints` folder to enable them.
 
 Popup is enabled by default.
