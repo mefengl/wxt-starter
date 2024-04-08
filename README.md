@@ -13,3 +13,5 @@ Build upon amazing [wxt](wxt.dev) framework.
 Move the predefined entry points from the `inactive` folder to directly under the `entrypoints` folder to enable them.
 
 Popup is enabled by default.
+
+*: For `sidepanel`, wxt does not automatically add the `sidePanel` permission. You must manually add it to the `manifest` field in `wxt.config.js`. Related: [wxt#544](https://github.com/wxt-dev/wxt/issues/544)
