@@ -1,5 +1,4 @@
 import { defineConfig } from 'wxt'
-import react from '@vitejs/plugin-react'
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
@@ -7,7 +6,5 @@ export default defineConfig({
     permissions: [],
   },
   srcDir: 'src',
-  vite: () => ({
-    plugins: [react()],
-  }),
+  modules: ['@wxt-dev/module-react'],
 })
