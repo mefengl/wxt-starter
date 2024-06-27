@@ -5,6 +5,6 @@ export default defineConfig({
   manifest: {
     permissions: [],
   },
-  srcDir: 'src',
   modules: ['@wxt-dev/module-react'],
+  srcDir: 'src',
 })

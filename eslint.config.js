@@ -4,19 +4,20 @@ import perfectionistNatural from 'eslint-plugin-perfectionist/configs/recommende
 
 const compat = new FlatCompat()
 
-export default antfu({}, ...compat.config({
+export default antfu({
+  rules: {
+    'import/order': 'off',
+    'tailwindcss/migration-from-tailwind-2': 'off',
+    'tailwindcss/no-custom-classname': 'off',
+  },
+}, ...compat.config({
   extends: [
     'plugin:tailwindcss/recommended',
     'plugin:react-hooks/recommended',
   ],
-  rules: {
-    'tailwindcss/no-custom-classname': 'off',
-    'tailwindcss/migration-from-tailwind-2': 'off',
-  },
   ignorePatterns: [
     'src/components/ui/*',
     'src/lib/utils.ts',
+    'tailwind.config.js',
   ],
-}),
-  perfectionistNatural,
-)
+}), perfectionistNatural)
