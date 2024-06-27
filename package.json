@@ -34,6 +34,7 @@
     "@wxt-dev/module-react": "^1.0.0",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
+    "eslint-plugin-perfectionist": "^2.11.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.17.3",
     "postcss": "^8.4.38",
