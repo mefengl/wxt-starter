@@ -28,7 +28,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.21.3",
+    "@antfu/eslint-config": "^2.22.2",
     "@eslint/eslintrc": "^3.1.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -42,5 +42,8 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5.5.3",
     "wxt": "^0.18.14"
+  },
+  "overrides": {
+    "@typescript-eslint/eslint-plugin": "rc-v8"
   }
 }
