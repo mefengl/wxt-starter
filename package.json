@@ -28,7 +28,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.2",
+    "@antfu/eslint-config": "^2.23.2",
     "@eslint/eslintrc": "^3.1.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -38,10 +38,10 @@
     "eslint-plugin-perfectionist": "^2.11.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.3",
-    "wxt": "^0.18.14"
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.4",
+    "wxt": "^0.18.15"
   },
   "overrides": {
     "@typescript-eslint/eslint-plugin": "rc-v8"
