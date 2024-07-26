@@ -39,9 +39,9 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.17.4",
     "postcss": "^8.4.40",
-    "tailwindcss": "^3.4.6",
+    "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4",
-    "wxt": "^0.18.15"
+    "wxt": "^0.19.0"
   },
   "overrides": {
     "@typescript-eslint/eslint-plugin": "rc-v8"
