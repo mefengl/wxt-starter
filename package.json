@@ -32,15 +32,15 @@
     "@eslint/eslintrc": "^3.1.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@wxt-dev/module-react": "^1.1.0",
-    "autoprefixer": "^10.4.19",
+    "@wxt-dev/module-react": "^1.1.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.57.0",
     "eslint-plugin-perfectionist": "^2.11.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "postcss": "^8.4.40",
-    "tailwindcss": "^3.4.7",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
     "typescript": "^5.5.4",
-    "wxt": "^0.19.2"
+    "wxt": "^0.19.4"
   }
 }
