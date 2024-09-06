@@ -1,17 +1,10 @@
 import antfu from '@antfu/eslint-config'
 import { FlatCompat } from '@eslint/eslintrc'
-import perfectionistNatural from 'eslint-plugin-perfectionist/configs/recommended-natural'
+import perfectionist from 'eslint-plugin-perfectionist'
 
 const compat = new FlatCompat()
 
 export default antfu(
-  {
-    perfectionistNatural,
-    rules: {
-      'import/order': 'off',
-    },
-  },
-
   {
     rules: {
       'tailwindcss/migration-from-tailwind-2': 'off',
@@ -27,6 +20,14 @@ export default antfu(
       'tsconfig.*',
     ],
   }),
+
+  // perfectionist
+  {
+    rules: {
+      'import/order': 'off',
+      ...perfectionist.configs['recommended-natural'].rules,
+    },
+  },
 
   // shadcn/ui
   ...compat.config({
