@@ -70,7 +70,7 @@ importers:
         specifier: ^3.4.10
         version: 3.4.10
       typescript:
-        specifier: ^5.5.4
+        specifier: ^5.6.2
         version: 5.6.2
       wxt:
         specifier: ^0.19.9
