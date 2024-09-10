@@ -2,6 +2,10 @@
 
 Build upon amazing [wxt](wxt.dev) framework.
 
+## Requirements
+
+- pnpm: [pnpm](https://pnpm.io)
+
 ## Addons
 
 - eslint: [eslint-config](https://github.com/antfu/eslint-config)
@@ -20,7 +24,7 @@ Popup is enabled by default.
 
 ## eslint
 
-If you are using vscode, autofix should already be enabled. You can run `npm run lint` to check for errors and `npm run lint:fix` to fix most of them.
+If you are using vscode, autofix should already be enabled. You can run `pnpm lint` to check for errors and `pnpm lint:fix` to fix most of them.
 
 > Thanks for antfu's elegant design philosophy in eslint configuration.
 
