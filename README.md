@@ -12,9 +12,13 @@ Build upon amazing [wxt](wxt.dev) framework.
 - tailwindcss
 - shadcn/ui: [shadcn/ui](https://ui.shadcn.com)
 
+optional:
+
+- trpc-chrome: [trpc-chrome](https://github.com/jlalmes/trpc-chrome), it is in the `inactive` folder. See [trpc](#trpc) for more information.
+
 ## Predefined Entrypoints
 
-Move the predefined entry points from the `inactive` folder to directly under the `entrypoints` folder to enable them.
+Move the predefined entry points from the `inactive` folder to directly in the `entrypoints` folder to enable them.
 
 Popup is enabled by default.
 
@@ -33,3 +37,19 @@ If you are using vscode, autofix should already be enabled. You can run `pnpm li
 To use it, refer to the [documentation](https://ui.shadcn.com/docs/cli#add)
 
 > tldr: To add components using `npx shadcn/ui add`, select them by pressing `space` and submit with `enter`. If adding a code file, simply type the component name for autocompletion in vscode.
+
+## trpc
+
+1. Replace the `background` and `popup` entrypoints with the ones in the `inactive/trpc` folder.
+2. Install the needed packages:
+
+```shell
+# trpc with react-query, see https://trpc.io/docs/v10/client/react/setup
+pnpm i @trpc/client @trpc/server @trpc/react-query @tanstack/react-query@4
+# trpc-chrome
+pnpm i trpc-chrome
+# zod
+pnpm i zod
+# superjson, it lets you pass complex data like Date and Map through the message channel
+pnpm i superjson
+```
