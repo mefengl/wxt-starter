@@ -4,17 +4,17 @@ Build upon amazing [wxt](wxt.dev) framework.
 
 ## Requirements
 
-- pnpm: [pnpm](https://pnpm.io)
+- [pnpm](https://pnpm.io)
 
 ## Addons
 
-- eslint: [eslint-config](https://github.com/antfu/eslint-config)
-- tailwindcss
-- shadcn/ui: [shadcn/ui](https://ui.shadcn.com)
+- [eslint-config](https://github.com/antfu/eslint-config): See [eslint](#eslint)
+- [tailwindcss](https://tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.com)
 
 optional:
 
-- trpc-chrome: [trpc-chrome](https://github.com/jlalmes/trpc-chrome), it is in the `inactive` folder. See [trpc](#trpc) for more information.
+- [trpc-chrome](https://github.com/jlalmes/trpc-chrome): See [trpc](#trpc)
 
 ## Predefined Entrypoints
 
@@ -36,7 +36,7 @@ If you are using vscode, autofix should already be enabled. You can run `pnpm li
 
 To use it, refer to the [documentation](https://ui.shadcn.com/docs/cli#add)
 
-> tldr: To add components using `npx shadcn/ui add`, select them by pressing `space` and submit with `enter`. If adding a code file, simply type the component name for autocompletion in vscode.
+> tldr: To add components using `npx shadcn@latest add`, select them by pressing `space` and submit with `enter`. If adding a code file, simply type the component name for autocompletion in vscode.
 
 ## trpc
 
