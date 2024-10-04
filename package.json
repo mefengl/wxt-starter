@@ -24,23 +24,23 @@
     "clsx": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwind-merge": "^2.5.2",
+    "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.1",
+    "@antfu/eslint-config": "^3.7.3",
     "@eslint/eslintrc": "^3.1.0",
-    "@types/react": "^18.3.9",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
     "@wxt-dev/module-react": "^1.1.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.11.1",
-    "eslint-plugin-perfectionist": "^3.7.0",
+    "eslint-plugin-perfectionist": "^3.8.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.17.4",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.2",
-    "wxt": "^0.19.10"
+    "wxt": "^0.19.11"
   }
 }
