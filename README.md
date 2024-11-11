@@ -4,7 +4,7 @@ Build upon amazing [wxt](wxt.dev) framework.
 
 ## Requirements
 
-- [pnpm](https://pnpm.io)
+- [bun](https://bun.sh/)
 
 ## Addons
 
@@ -29,7 +29,7 @@ Popup is enabled by default.
 
 ## eslint
 
-If you are using vscode, autofix should already be enabled. You can run `pnpm lint` to check for errors and `pnpm lint:fix` to fix most of them.
+If you are using vscode, autofix should already be enabled. You can run `bun lint` to check for errors and `bun lint:fix` to fix most of them.
 
 > Thanks for antfu's elegant design philosophy in eslint configuration.
 
@@ -46,11 +46,11 @@ To use it, refer to the [documentation](https://ui.shadcn.com/docs/cli#add)
 
 ```shell
 # trpc with react-query, see https://trpc.io/docs/v10/client/react/setup
-pnpm i @trpc/client @trpc/server @trpc/react-query @tanstack/react-query@4
+bun i @trpc/client @trpc/server @trpc/react-query @tanstack/react-query@4
 # trpc-chrome
-pnpm i trpc-chrome
+bun i trpc-chrome
 # zod
-pnpm i zod
+bun i zod
 # superjson, it lets you pass complex data like Date and Map through the message channel
-pnpm i superjson
+bun i superjson
 ```
