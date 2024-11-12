@@ -19,7 +19,7 @@ optional:
 
 ## Predefined Entrypoints
 
-Move the predefined entry points from the `inactive` folder to directly in the `entrypoints` folder to enable them.
+Move the predefined entry points from the `entrypoints.inactive` folder to directly in the `entrypoints` folder to enable them.
 
 Popup is enabled by default.
 
@@ -41,7 +41,7 @@ To use it, refer to the [documentation](https://ui.shadcn.com/docs/cli#add)
 
 ## trpc
 
-1. Replace the `background` and `popup` entrypoints with the ones in the `inactive/trpc` folder.
+1. Replace the `background` and `popup` entrypoints with the ones in the `entrypoints.inactive/trpc` folder.
 2. Install the needed packages:
 
 ```shell
