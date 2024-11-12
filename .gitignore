@@ -12,6 +12,7 @@ node_modules
 stats.html
 .wxt
 web-ext.config.ts
+.env.submit
 
 # Editor directories and files
 .idea
