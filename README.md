@@ -54,3 +54,25 @@ bun i zod
 # superjson, it lets you pass complex data like Date and Map through the message channel
 bun i superjson
 ```
+
+## Advanced Configuration
+
+### One-step submit
+
+0. You need to manually upload the extension to the Chrome Web Store the first time. After that, you can get the `CHROME_EXTENSION_ID`.
+
+1. Rename the file `.env.submit.example` to `.env.submit` and fill in the `CHROME_EXTENSION_ID`.
+
+2. Add the following settings to your shell config file. Keep them safe. See https://github.com/fregante/chrome-webstore-upload-keys for how to get the keys.
+
+   ```shell
+   export CHROME_CLIENT_ID="<your client id>"
+   export CHROME_REFRESH_TOKEN="<your refresh token>"
+   export CHROME_CLIENT_SECRET="<your client secret>"
+   ```
+
+3. Now you can run `bun submit:latest` for faster submission.
+
+ > `bun submit:latest` is an alias for `rimraf .output; wxt zip && wxt submit --chrome-zip .output/*.zip`
+ >
+ > `rimraf` is a cross-platform `rm -rf` command
