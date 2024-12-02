@@ -5,15 +5,15 @@ import { createTRPCReact } from '@trpc/react-query'
 const trpcReact = createTRPCReact<AppRouter>()
 
 function App() {
-  const { data } = trpcReact.greeting.useQuery({ name: 'tRPC' })
+  const hello = trpcReact.greeting.useQuery({ name: 'tRPC' })
 
-  if (!data) {
+  if (!hello) {
     return null
   }
 
   return (
     <div data-testid="greeting">
-      {data.text}
+      {hello}
     </div>
   )
 }

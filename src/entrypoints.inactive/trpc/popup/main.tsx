@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { createTRPCReact } from '@trpc/react-query'
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
-import superjson from 'superjson'
 import { chromeLink } from 'trpc-chrome/link'
 
 import App from './App.tsx'
@@ -19,7 +18,6 @@ function Root() {
   const [trpcClient] = useState(() =>
     trpcReact.createClient({
       links: [chromeLink({ port })],
-      transformer: superjson,
     }),
   )
   return (

@@ -55,8 +55,6 @@ bun i @trpc/client @trpc/server @trpc/react-query @tanstack/react-query@4
 bun i trpc-chrome
 # zod
 bun i zod
-# superjson, it lets you pass complex data like Date and Map through the message channel
-bun i superjson
 ```
 
 ## Advanced Configuration
