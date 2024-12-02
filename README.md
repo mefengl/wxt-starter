@@ -13,6 +13,10 @@ Build upon amazing [wxt](wxt.dev) framework.
 - [shadcn/ui](https://ui.shadcn.com)
 - [@wxt-dev/i18n](https://wxt.dev/guide/i18n/introduction)
 
+dev:
+
+- [bumpp](https://github.com/antfu-collective/bumpp): See [Version Bumping](#version-bumping)
+
 optional:
 
 - [trpc-chrome](https://github.com/jlalmes/trpc-chrome): See [trpc](#trpc)
@@ -56,6 +60,10 @@ bun i superjson
 ```
 
 ## Advanced Configuration
+
+### Version Bumping
+
+Run `bun bump` to bump version in cli.
 
 ### One-step submit
 
