@@ -5,7 +5,13 @@ import { createTRPCReact } from '@trpc/react-query'
 const trpcReact = createTRPCReact<AppRouter>()
 
 function App() {
-  const hello = trpcReact.greeting.useQuery({ name: 'tRPC' })
+  const { data: hello } = trpcReact.greeting.useQuery({ name: 'tRPC' })
+  trpcReact.onGreeting.useSubscription(undefined, {
+    onData: (hello) => {
+      // eslint-disable-next-line no-console
+      console.log(hello)
+    },
+  })
 
   if (!hello) {
     return null

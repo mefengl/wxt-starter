@@ -55,6 +55,8 @@ bun i @trpc/client @trpc/server @trpc/react-query @tanstack/react-query@4
 bun i trpc-chrome
 # zod
 bun i zod
+# mitt, event emitter, for trpc subscription
+bun i mitt
 ```
 
 ## Advanced Configuration
