@@ -15,11 +15,28 @@ Build upon amazing [wxt](wxt.dev) framework.
 dev:
 
 - [eslint-config](https://github.com/antfu/eslint-config): See [eslint](#eslint)
-- [bumpp](https://github.com/antfu-collective/bumpp): See [Version Bumping](#version-bumping)
+- [bumpp](https://github.com/antfu-collective/bumpp): use `bun bump`
 
 optional:
 
 - [trpc-chrome](https://github.com/jlalmes/trpc-chrome): See [trpc](#trpc)
+
+## Setup
+
+- [ ] update `name` in `package.json`, it will be zip file name
+- [ ] update `title` and `description` in `src/locales`, these will appear in the Chrome Web Store
+- [ ] update `default_locale` in `wxt.config.js` if not `en`
+- [ ] replace `icon.png` in `src/assets`
+- [ ] run `bun bump minor`
+- [ ] [mvp](https://en.wikipedia.org/wiki/Minimum_viable_product)
+- [ ] run `bun bump major`
+- [ ] publish
+
+optional:
+
+- [ ] update `README.md`
+- [ ] add extension url to `README.md`
+- [ ] setup [cli submit](#cli-submit)
 
 ## Predefined Entrypoints
 
@@ -63,11 +80,7 @@ bun i mitt
 
 ## Advanced Configuration
 
-### Version Bumping
-
-Run `bun bump` to bump version in cli.
-
-### One-step submit
+### cli submit
 
 0. You need to manually upload the extension to the Chrome Web Store the first time. After that, you can get the `CHROME_EXTENSION_ID`.
 
