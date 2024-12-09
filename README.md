@@ -8,13 +8,13 @@ Build upon amazing [wxt](wxt.dev) framework.
 
 ## Addons
 
-- [eslint-config](https://github.com/antfu/eslint-config): See [eslint](#eslint)
 - [tailwindcss](https://tailwindcss.com)
 - [shadcn/ui](https://ui.shadcn.com)
 - [@wxt-dev/i18n](https://wxt.dev/guide/i18n/introduction)
 
 dev:
 
+- [eslint-config](https://github.com/antfu/eslint-config): See [eslint](#eslint)
 - [bumpp](https://github.com/antfu-collective/bumpp): See [Version Bumping](#version-bumping)
 
 optional:
