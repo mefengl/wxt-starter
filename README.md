@@ -23,6 +23,8 @@ optional:
 
 ## Predefined Entrypoints
 
+**Find more at [wxt.dev/examples](https://wxt.dev/examples.html)**
+
 Move the predefined entry points from the `entrypoints.inactive` folder to directly in the `entrypoints` folder to enable them.
 
 Popup is enabled by default.
