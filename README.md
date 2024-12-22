@@ -96,6 +96,4 @@ bun i mitt
 
 3. Now you can run `bun submit:latest` for faster submission.
 
- > `bun submit:latest` is an alias for `rimraf .output; wxt zip && wxt submit --chrome-zip .output/*.zip`
- >
- > `rimraf` is a cross-platform `rm -rf` command
+ > `bun submit:latest` is an alias for `bun exec 'rm -rf .output'; wxt zip && wxt submit --chrome-zip .output/*.zip`

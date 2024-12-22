@@ -12,7 +12,7 @@
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "submit": "wxt submit",
-    "submit:latest": "rimraf .output; wxt zip && wxt submit --chrome-zip .output/*.zip",
+    "submit:latest": "bun exec 'rm -rf .output'; wxt zip && wxt submit --chrome-zip .output/*.zip",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",
     "lint": "eslint .",
@@ -43,7 +43,6 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "postcss": "^8.4.49",
-    "rimraf": "^6.0.1",
     "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2",
     "wxt": "^0.19.22"
