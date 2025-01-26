@@ -17,10 +17,6 @@ dev:
 - [eslint-config](https://github.com/antfu/eslint-config): See [eslint](#eslint)
 - [bumpp](https://github.com/antfu-collective/bumpp): use `bun bump`
 
-optional:
-
-- [trpc-chrome](https://github.com/jlalmes/trpc-chrome): See [trpc](#trpc)
-
 ## Setup
 
 - [ ] update `name` in `package.json`, it will be zip file name
@@ -61,22 +57,6 @@ If you are using vscode, autofix should already be enabled. You can run `bun lin
 To use it, refer to the [documentation](https://ui.shadcn.com/docs/cli#add)
 
 > tldr: To add components using `npx shadcn@latest add`, select them by pressing `space` and submit with `enter`. If adding a code file, simply type the component name for autocompletion in vscode.
-
-## trpc
-
-1. Replace the `background` and `popup` entrypoints with the ones in the `entrypoints.inactive/trpc` folder.
-2. Install the needed packages:
-
-```shell
-# trpc with react-query, see https://trpc.io/docs/v10/client/react/setup
-bun i @trpc/client @trpc/server @trpc/react-query @tanstack/react-query@4
-# trpc-chrome
-bun i trpc-chrome
-# zod
-bun i zod
-# mitt, event emitter, for trpc subscription
-bun i mitt
-```
 
 ## Advanced Configuration
 
