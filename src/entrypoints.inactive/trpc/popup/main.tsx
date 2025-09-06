@@ -1,15 +1,16 @@
-import type { AppRouter } from '@/entrypoints/background'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import '@/entrypoints/style.css'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { createTRPCReact } from '@trpc/react-query'
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import { chromeLink } from 'trpc-chrome/link'
 
+import type { AppRouter } from '@/entrypoints/background'
+
 import App from './App.tsx'
 
-const port = browser.runtime.connect() as chrome.runtime.Port
+const port = chrome.runtime.connect() as chrome.runtime.Port
 
 const trpcReact = createTRPCReact<AppRouter>()
 

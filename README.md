@@ -21,7 +21,7 @@ dev:
 
 - [ ] update `name` in `package.json`, it will be zip file name
 - [ ] update `title` and `description` in `src/locales`, these will appear in the Chrome Web Store
-- [ ] update `default_locale` in `wxt.config.js` if not `en`
+- [ ] update `default_locale` in `wxt.config.ts` if not `en`
 - [ ] replace `icon.png` in `src/assets`
 - [ ] run `bun bump minor`
 - [ ] [mvp](https://en.wikipedia.org/wiki/Minimum_viable_product)
@@ -42,9 +42,7 @@ Move the predefined entry points from the `entrypoints.inactive` folder to direc
 
 Popup is enabled by default.
 
-*: For `sidepanel`, wxt does not automatically add the `sidePanel` permission. You must manually add it to the `manifest` field in `wxt.config.js`. Related: [wxt#544](https://github.com/wxt-dev/wxt/issues/544)
-
-*: For `onboarding`, to retrieve the URL of the onboarding page, use `browser.runtime.getURL('/onboarding.html')`.
+*: For `onboarding`, to retrieve the URL of the onboarding page, use `chrome.runtime.getURL('/onboarding.html')`.
 
 ## eslint
 

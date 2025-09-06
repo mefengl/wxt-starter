@@ -1,6 +1,6 @@
-import type { AppRouter } from '@/entrypoints/background'
-
 import { createTRPCReact } from '@trpc/react-query'
+
+import type { AppRouter } from '@/entrypoints/background'
 
 const trpcReact = createTRPCReact<AppRouter>()
 
