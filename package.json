@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prepare": "[ \"$CI\" = \"true\" ] || lefthook install",
+    "prepare": "[ -n \"$CI\" ] || lefthook install",
     "dev": "wxt",
     "dev:firefox": "wxt -b firefox",
     "build": "wxt build",
