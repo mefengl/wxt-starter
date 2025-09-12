@@ -1,6 +1,6 @@
 # WXT Starter
 
-Build upon amazing [wxt](wxt.dev) framework.
+Build upon amazing [wxt](https://wxt.dev) framework.
 
 ## Requirements
 
@@ -11,6 +11,8 @@ Build upon amazing [wxt](wxt.dev) framework.
 - [tailwindcss](https://tailwindcss.com)
 - [shadcn/ui](https://ui.shadcn.com)
 - [@wxt-dev/i18n](https://wxt.dev/guide/i18n/introduction)
+- [tanstack query](https://github.com/TanStack/query)
+- [orpc](https://github.com/unnoq/orpc)
 
 dev:
 
