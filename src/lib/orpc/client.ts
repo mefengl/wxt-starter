@@ -7,7 +7,7 @@ import { createTanstackQueryUtils } from '@orpc/tanstack-query'
 import type { AppRouter } from './router'
 
 const link = new RPCLink({
-  port: chrome.runtime.connect(),
+  port: browser.runtime.connect(),
 })
 
 export const client: RouterClient<AppRouter> = createORPCClient(link)
