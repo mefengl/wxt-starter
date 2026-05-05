@@ -1,9 +1,9 @@
-import '@/entrypoints/style.css'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import * as React from 'react'
 import ReactDOM from 'react-dom/client'
-
 import App from './App.tsx'
+
+import '@/entrypoints/style.css'
 
 const queryClient = new QueryClient()
 

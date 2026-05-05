@@ -17,6 +17,6 @@ export default defineConfig({
   ],
   srcDir: 'src',
   vite: () => ({
-    plugins: [tailwindcss() as any],
+    plugins: [tailwindcss()],
   }),
 })
